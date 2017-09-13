@@ -1,0 +1,28 @@
+/* Common styling for the Example skin */
+
+@import "variables.less";
+
+// Page layout
+
+#mw-wrapper {
+	max-width: @width;
+	margin: 0 auto;
+	position: relative;
+	padding: 1em;
+}
+#p-logo {
+	text-align: center;
+	width: 30em;
+	float: right;
+
+	// Make logo image visible
+	// The class sets the background image from $wgLogo, but we still need to give it a size in order to show up
+	a.mw-wiki-logo {
+		display: block;
+		content: '';
+		width: 10em;
+		height: 10em;
+		background-repeat: no-repeat;
+		background-position: 50% 50%;
+	}
+}

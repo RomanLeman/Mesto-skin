@@ -1,0 +1,7 @@
+{
+	"@metadata": {
+		"authors": [ "..." ]
+	},
+	"skinname-mesto": "{{optional}}",
+	"mesto-desc": "{{desc|what=skin|name=Mesto|url=https://www.mesto.wiki}}"
+}
